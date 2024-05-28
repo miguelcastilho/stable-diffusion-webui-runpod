@@ -11,7 +11,8 @@ https://www.youtube.com/watch?v=STecUG4RBxM
 ### Jupyter Lab Notebook
 
 ```py
-!apt update && apt install -y libgl1
+!apt update && apt install -y libgl1 libc6
+!pip install -q httpx==0.24.1 -U
 %cd /content
 !git clone https://github.com/camenduru/stable-diffusion-webui-colab
 ```
